@@ -1,0 +1,58 @@
+/* nav */
+.nav-img {
+  width: 96px;
+  height: auto;
+}
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: var(--white-ligth);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.hero h1 {
+  display: initial;
+  font-size: 4rem;
+  margin: -20px 0 20px;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.hero .ripple {
+  background-color: var(--primary);
+  color: var(--white);
+  border: transparent;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1.2rem 4rem;
+  margin: 2rem 0;
+  border-radius: 3.5rem;
+}
+
+.hero .ripple:focus {
+  outline: none;
+}

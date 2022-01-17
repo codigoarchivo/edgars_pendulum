@@ -1,0 +1,32 @@
+:root {
+  --primary: #0077b5;
+  --secondary: #00486e;
+  --white: #e1e1e1;
+  --white-dark: #eee;
+  --white-ligth: #eee;
+  --text-primary: #777;
+  --guter-horizontal: 6rem;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+a {
+  text-decoration: none;
+}
+.bg-blu-ligth {
+  background-color: var(--primary) !important;
+}
+.bg-blu-dark {
+  background-color: var(--secondary) !important;
+}
