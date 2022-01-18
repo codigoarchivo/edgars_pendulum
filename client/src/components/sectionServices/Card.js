@@ -17,6 +17,7 @@ export const Card = ({ data }) => {
   return (
     <>
       <div className="container" id="section-tour">
+     <h2 className="pb-2 border-bottom  border-primary">Spiritual Area</h2>
         <div className="row justify-content-evenly">
           {listCard.map((x) => (
             <div key={x.ul1} className="cont-iten">

@@ -4,19 +4,19 @@ export const AboutScreen = () => {
   return (
     <>
       <div className="container px-4 py-5" id="icon-grid">
-        <h2 className="pb-2 border-bottom">Icon grid</h2>
+        <h2 className="pb-2 border-bottom  border-primary">Work Area</h2>
 
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
           <div className="col d-flex align-items-start">
             <svg
-              className="bi text-muted flex-shrink-0 me-3"
+              className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
             >
-              {/* <use xlink:href="#bootstrap" /> */}
+              <i className="fas fa-city"></i>
             </svg>
-            <div>
-              <h4 className="fw-bold mb-0">Featured title</h4>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">Real estate</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>
@@ -24,14 +24,14 @@ export const AboutScreen = () => {
           </div>
           <div className="col d-flex align-items-start">
             <svg
-              className="bi text-muted flex-shrink-0 me-3"
+              className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
             >
-              {/* <use xlink:href="#cpu-fill" /> */}
+              <i className="fas fa-football-ball"></i>
             </svg>
-            <div>
-              <h4 className="fw-bold mb-0">Featured title</h4>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">Sports</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>
@@ -39,14 +39,14 @@ export const AboutScreen = () => {
           </div>
           <div className="col d-flex align-items-start">
             <svg
-              className="bi text-muted flex-shrink-0 me-3"
+              className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
             >
-              {/* <use xlink:href="#calendar3" /> */}
+              <i className="fas fa-user-md"></i>
             </svg>
-            <div>
-              <h4 className="fw-bold mb-0">Featured title</h4>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">Health</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>
@@ -54,14 +54,14 @@ export const AboutScreen = () => {
           </div>
           <div className="col d-flex align-items-start">
             <svg
-              className="bi text-muted flex-shrink-0 me-3"
+              className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
             >
-              {/* <use xlink:href="#home" /> */}
+              <i className="fas fa-industry"></i>
             </svg>
-            <div>
-              <h4 className="fw-bold mb-0">Featured title</h4>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">industries</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>
@@ -69,14 +69,14 @@ export const AboutScreen = () => {
           </div>
           <div className="col d-flex align-items-start">
             <svg
-              className="bi text-muted flex-shrink-0 me-3"
+              className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
             >
-              {/* <use xlink:href="#speedometer2" /> */}
+              <i className="fas fa-hand-holding-usd"></i>
             </svg>
-            <div>
-              <h4 className="fw-bold mb-0">Featured title</h4>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">Stock Market</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>
@@ -84,14 +84,14 @@ export const AboutScreen = () => {
           </div>
           <div className="col d-flex align-items-start">
             <svg
-              className="bi text-muted flex-shrink-0 me-3"
+              className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
             >
-              {/* <use xlink:href="#toggles2" /> */}
+              <i className="fas fa-graduation-cap"></i>
             </svg>
-            <div>
-              <h4 className="fw-bold mb-0">Featured title</h4>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">Studies</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>
@@ -99,14 +99,14 @@ export const AboutScreen = () => {
           </div>
           <div className="col d-flex align-items-start">
             <svg
-              className="bi text-muted flex-shrink-0 me-3"
+              className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
             >
-              {/* <use xlink:href="#geo-fill" /> */}
+              <i className="fas fa-film"></i>
             </svg>
-            <div>
-              <h4 className="fw-bold mb-0">Featured title</h4>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">Artists</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>
@@ -114,37 +114,18 @@ export const AboutScreen = () => {
           </div>
           <div className="col d-flex align-items-start">
             <svg
-              className="bi text-muted flex-shrink-0 me-3"
+              className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
             >
-              {/* <use xlink:href="#tools" /> */}
+              <i className="fas fa-flag-usa"></i>
             </svg>
-            <div>
-              <h4 className="fw-bold mb-0">Featured title</h4>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">Politica</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-          <div className="col-md-6 px-0">
-            <h1 className="display-4 fst-italic">
-              Title of a longer featured blog post
-            </h1>
-            <p className="lead my-3">
-              Multiple lines of text that form the lede, informing new readers
-              quickly and efficiently about what’s most interesting in this
-              post’s contents.
-            </p>
-            <p className="lead mb-0">
-              <a href="#" className="text-white fw-bold">
-                Continue reading...
-              </a>
-            </p>
           </div>
         </div>
       </div>

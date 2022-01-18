@@ -1,39 +1,28 @@
 import React from "react";
 
-export const AboutMe = () => {
+export const MoreInformation = () => {
   return (
     <>
+      <h2 className="pb-2 mb-5 border-bottom  border-primary">
+      Service Area
+      </h2>
       <div className="row featurette">
         <div className="col-md-7">
-          <div className="h-100 p-5 text-white bg-dark rounded-3">
-            <h2>Change the background</h2>
+          <div className="h-100 p-5 bg-blu-ligth rounded-3">
+            <h2>How we work</h2>
             <p>
-              Swap the background-color utility and add a `.text-*` color
-              utility to mix up the jumbotron look. Then, mix and match with
-              additional component themes and more.
+              Through the use of the pendulum as a connection with divinity
+              detecting the recordings of models and patterns for your
+              development to success
             </p>
-            <button className="btn btn-outline-light" type="button">
-              Example button
-            </button>
           </div>
         </div>
         <div className="col-md-5">
-          <svg
-            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            width="500"
-            height="500"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" />
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">
-              500x500
-            </text>
-          </svg>
+          <img
+            src={"./assets/img/contimg1.jpg"}
+            className="img-fluid img-thumbnail"
+            alt="Foto"
+          />
         </div>
       </div>
 
@@ -41,35 +30,21 @@ export const AboutMe = () => {
 
       <div className="row featurette">
         <div className="col-md-7 order-md-2">
-          <div className="h-100 p-5 text-white bg-dark rounded-3">
-            <h2>Change the background</h2>
+          <div className="h-100 p-5 bg-blu-ligth rounded-3">
+            <h2>What do we need from you?</h2>
             <p>
               Swap the background-color utility and add a `.text-*` color
               utility to mix up the jumbotron look. Then, mix and match with
               additional component themes and more.
             </p>
-            <button className="btn btn-outline-light" type="button">
-              Example button
-            </button>
           </div>
         </div>
         <div className="col-md-5 order-md-1">
-          <svg
-            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            width="500"
-            height="500"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" />
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">
-              500x500
-            </text>
-          </svg>
+          <img
+            src={"./assets/img/contimg2.jpg"}
+            className="img-fluid img-thumbnail"
+            alt="Foto"
+          />
         </div>
       </div>
     </>
