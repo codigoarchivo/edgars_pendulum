@@ -1,6 +1,6 @@
 import React from "react";
 import "./popup.css";
-export const Popup = ({ parrafo, h1b, popup }) => {
+export const Popup = ({ parrafo, h1b, popup, direcc }) => {
   return (
     <>
       <div className="popup" id={popup}>
@@ -13,7 +13,7 @@ export const Popup = ({ parrafo, h1b, popup }) => {
             /> */}
           </div>
           <div className="popup__right">
-            <a href="#section-tour" className="popup__close">
+            <a href={`#${direcc}`} className="popup__close">
               &times;
             </a>
             <h2 className="heading-segundary u-margin-bottom-small">{h1b}</h2>

@@ -61,7 +61,7 @@ export const AboutScreen = () => {
               <i className="fas fa-industry"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">industries</h4>
+              <h4 className="fw-bold mb-0">Industries</h4>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
               </p>

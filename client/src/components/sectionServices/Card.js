@@ -1,7 +1,7 @@
 import React from "react";
 import { Popup } from "./Popup";
 
-export const Card = ({ data }) => {
+export const Card = ({ data, secCont }) => {
   const { carInfo } = data;
 
   const [listCard, setlistCard] = React.useState([]);
@@ -16,11 +16,11 @@ export const Card = ({ data }) => {
 
   return (
     <>
-      <div className="container" id="section-tour">
-     <h2 className="pb-2 border-bottom  border-primary">Spiritual Area</h2>
+      <div className="container p-4" id={secCont}>
+        <h2 className="pb-2 border-bottom  border-primary">Spiritual Area</h2>
         <div className="row justify-content-evenly">
           {listCard.map((x) => (
-            <div key={x.ul1} className="cont-iten">
+            <div key={x.ul1} className="col-lg-4 col-md-8 col-sm-12 pt-5">
               <div className="card shadow">
                 <div className="card__side card__side--front">
                   <div
@@ -58,7 +58,12 @@ export const Card = ({ data }) => {
                   </div>
                 </div>
               </div>
-              <Popup popup={x.popup} h1b={x.h1b} parrafo={x.p} />
+              <Popup
+                popup={x.popup}
+                h1b={x.h1b}
+                parrafo={x.p}
+                direcc={secCont}
+              />
             </div>
           ))}
         </div>

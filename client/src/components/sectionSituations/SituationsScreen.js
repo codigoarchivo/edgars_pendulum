@@ -20,6 +20,15 @@ export const SituationsScreen = () => {
           <div className="carousel-item">
             <Situations dataInfo={data2[2]} />
           </div>
+          <div className="carousel-item">
+            <Situations dataInfo={data2[3]} />
+          </div>
+          <div className="carousel-item">
+            <Situations dataInfo={data2[4]} />
+          </div>
+          <div className="carousel-item">
+            <Situations dataInfo={data2[5]} />
+          </div>
         </div>
       </div>
     </>

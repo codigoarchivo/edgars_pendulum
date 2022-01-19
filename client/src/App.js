@@ -6,25 +6,27 @@ import { MoreInformation } from "./components/sectionAboutWe/AboutMe";
 import { CardServicesScreen } from "./components/sectionServices/CardServicesScreen";
 import { SituationsScreen } from "./components/sectionSituations/SituationsScreen";
 import "./App.css";
+import "./css/all.min.css"
+import "./css/bootstrap.min.css"
 
 function App() {
   return (
     <>
-      <header>
+      <header id="home">
         <Nav />
         <Hero />
       </header>
       <main>
-        <section className="container">
+        <section className="container" id="workarea">
           <AboutScreen />
         </section>
         <section className="container">
           <SituationsScreen />
         </section>
-        <section className="container-fluid">
+        <section className="container-fluid" id="aboutme">
           <CardServicesScreen />
         </section>
-        <section className="container my-5">
+        <section className="container my-5" id="servicearea">
           <MoreInformation />
         </section>
       </main>

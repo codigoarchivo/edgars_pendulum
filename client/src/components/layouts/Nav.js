@@ -52,22 +52,38 @@ export const Nav = () => {
                   alt="Foto"
                 />
                 <li className="nav-item">
-                  <a className="nav-link  active" aria-current="page" href="#">
+                  <a
+                    className="nav-link  active"
+                    aria-current="page"
+                    href="#home"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link  active" aria-current="page" href="#">
+                  <a
+                    className="nav-link  active"
+                    aria-current="page"
+                    href="#workarea"
+                  >
                     Work Area
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link  active" aria-current="page" href="#">
+                  <a
+                    className="nav-link  active"
+                    aria-current="page"
+                    href="#aboutme"
+                  >
                     About me
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link  active" aria-current="page" href="#">
+                  <a
+                    className="nav-link  active"
+                    aria-current="page"
+                    href="#servicearea"
+                  >
                     Service Area
                   </a>
                 </li>
@@ -85,29 +101,38 @@ export const Nav = () => {
               <ul className="navbar-nav ml-auto mt-3 mt-lg-0 mx-5">
                 <li className="nav-item">
                   {" "}
-                  <a className="nav-link " href="#">
+                  <a
+                    className="nav-link cursor-pointer"
+                    href="https://twitter.com/edgarspendulum?t=PmWj-xl1JJ407GU2Lk8wDg&s=09"
+                  >
                     <i className="fab fa-twitter"></i>
                     <span className="d-lg-none ml-3">Twitter</span>
                   </a>{" "}
                 </li>
                 <li className="nav-item">
                   {" "}
-                  <a className="nav-link " href="#">
+                  <a
+                    className="nav-link cursor-pointer"
+                    href="https://www.facebook.com/edgar.marcanosantodomingo"
+                  >
                     <i className="fab fa-facebook"></i>
                     <span className="d-lg-none ml-3">Facebook</span>
                   </a>{" "}
                 </li>
                 <li className="nav-item">
                   {" "}
-                  <a className="nav-link " href="#">
+                  <a
+                    className="nav-link cursor-pointer"
+                    href="https://www.instagram.com/p/CYcsvrVgEC5/?utm_medium=share_sheet"
+                  >
                     <i className="fab fa-instagram"></i>
                     <span className="d-lg-none ml-3">Instagram</span>
                   </a>{" "}
                 </li>
-                <li className="nav-item">
+                <li className="nav-item cursor-pointer">
                   {" "}
-                  <a className="nav-link " href="#">
-                    <i className="fab fa-linkedin"></i>
+                  <a className="nav-link " href="@edgarspendulum">
+                    <i className="fab fa-telegram-plane"></i>
                     <span className="d-lg-none ml-3">Linkedin</span>
                   </a>{" "}
                 </li>

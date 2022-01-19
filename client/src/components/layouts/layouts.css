@@ -4,11 +4,11 @@
   height: auto;
 }
 .nav-link {
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
   transition: all 0.3s;
 }
 .nav-link:hover {
-  color: var(--secondary);
+  color: var(--secondary) !important;
 }
 /* hero */
 .hero {

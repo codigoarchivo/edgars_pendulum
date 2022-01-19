@@ -92,7 +92,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="col-12 py-4 col-md row text-center justify-content-center">
-          <img className="mb-2 w-25" src="/assets/img/logo-white.png" height={"100"} alt="Foto" />
+          <img className="mb-2 w-30 img-fluid" src="/assets/img/logo-white.png" alt="Foto" />
           <small className="d-block mb-3 text-cont-white">
            Todos los Derechos Reservados &copy; 2017–{new Date().getFullYear()}
           </small>

@@ -25,6 +25,15 @@ ul {
 a {
   text-decoration: none;
 }
+.w-30 {
+  width: 30% !important;
+}
+.p-t-3 {
+  padding-top: 3rem;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
 .bg-blu-ligth {
   background-color: var(--primary) !important;
   color: var(--bs-white) !important;
