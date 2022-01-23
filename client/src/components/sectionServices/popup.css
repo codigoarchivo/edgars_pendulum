@@ -1,29 +1,27 @@
 /* popup */
 .popup {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   top: 0;
   left: 0;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.1);
   z-index: 5000;
-  opacity: 0;
-  visibility: hidden;
   transition: all 0.3s;
 }
 @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
   .popup {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
   }
 }
 .popup__content {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%;
+  width: 100%;
   background-color: var(--white-ligth);
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
   border-radius: 3px;
@@ -32,33 +30,32 @@
   transform: translate(-50%, -50%) scale(0.25);
   transition: all 0.5s 0.2s;
 }
-.popup__left {
-  width: 33.333333%;
-  display: table-cell;
+.popup__cont {
+  padding: 5rem;
+  width: 100vw;
 }
-.popup__right {
-  width: 66.6666667%;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 4rem 2rem;
+@media only screen and (max-width: 1600px) {
+  .popup__cont {
+    width: 200vw;
+  }
 }
+@media only screen and (max-width: 900px) {
+  .popup__cont {
+    width: 300vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .popup__cont {
+    width: 400vw;
+  }
+}
+
 .popup__img {
   display: block;
   width: 100%;
 }
 .popup__text {
-  font-size: 0.6rem;
-  margin-bottom: 4rem;
-  -moz-column-count: 2;
-  -moz-column-gap: 4rem;
-  -moz-column-rule: 1px solid var(--white-dark);
-  column-count: 2;
-  column-gap: 4rem;
-  column-rule: 1px solid var(--white-dark);
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
+  font-size: 4rem;
 }
 .popup:target {
   opacity: 1;
@@ -73,7 +70,7 @@
   position: absolute;
   top: 2.5rem;
   right: 2.5rem;
-  font-size: 3rem;
+  font-size: 150px;
   text-decoration: none;
   display: inline-block;
   transition: all 0.2s;

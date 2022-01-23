@@ -48,7 +48,7 @@
   border-top-right-radius: 3px;
 }
 .card__heading {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
   font-weight: 300;
   color: var(--white-ligth);
@@ -58,8 +58,11 @@
   width: 92%;
   text-align: right;
 }
+.heading-segundary  {
+  font-size: 5rem;
+}
 .card__heading-span {
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
@@ -77,8 +80,8 @@
 }
 .card__dentails ul li {
   text-align: center;
-  font-size: 1rem;
-  padding: 1rem;
+  font-size: 1.1rem;
+  padding: .7rem;
   color: var(--text-primary);
 }
 .card__dentails ul li :not(last-child) {

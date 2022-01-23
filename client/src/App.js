@@ -5,9 +5,11 @@ import { AboutScreen } from "./components/sectionAbout/AboutScreen";
 import { MoreInformation } from "./components/sectionAboutWe/AboutMe";
 import { CardServicesScreen } from "./components/sectionServices/CardServicesScreen";
 import { SituationsScreen } from "./components/sectionSituations/SituationsScreen";
+import { PresentationScreeen } from "./components/sectionPresentation/PresentationScreeen";
+
+import "./css/bootstrap.min.css";
+import "./css/all.min.css";
 import "./App.css";
-import "./css/all.min.css"
-import "./css/bootstrap.min.css"
 
 function App() {
   return (
@@ -16,17 +18,20 @@ function App() {
         <Nav />
         <Hero />
       </header>
-      <main>
-        <section className="container" id="workarea">
+      <main className="py-5">
+        <section className="container py-lg-5">
+          <PresentationScreeen />
+        </section>
+        <section className="container pb-5" id="workarea">
           <AboutScreen />
         </section>
-        <section className="container">
+        <section className="container py-5">
           <SituationsScreen />
         </section>
-        <section className="container-fluid" id="aboutme">
+        <section className="container-fluid pb-5" id="aboutme">
           <CardServicesScreen />
         </section>
-        <section className="container my-5" id="servicearea">
+        <section className="container py-5" id="servicearea">
           <MoreInformation />
         </section>
       </main>

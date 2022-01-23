@@ -3,10 +3,18 @@ import React from "react";
 export const AboutScreen = () => {
   return (
     <>
-      <div className="container px-4 py-5" id="icon-grid">
-        <h2 className="pb-2 border-bottom  border-primary">Work Area</h2>
+      <div className="container px-4" id="icon-grid">
+        <h2 className="mb-5">
+          <span
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            className="border-color-cont"
+          >
+            Work <span className="text-cont-primary">Area</span>
+          </span>
+        </h2>
 
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 ">
           <div className="col d-flex align-items-start">
             <svg
               className="bi text-cont-primary flex-shrink-0 me-3"
@@ -17,9 +25,7 @@ export const AboutScreen = () => {
             </svg>
             <div className="text-cont-secondary">
               <h4 className="fw-bold mb-0">Real estate</h4>
-              <p>
-                Paragraph of text beneath the heading to explain the heading.
-              </p>
+              <p>Activos que no pueden moverse de su lugar de origen.</p>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -33,7 +39,7 @@ export const AboutScreen = () => {
             <div className="text-cont-secondary">
               <h4 className="fw-bold mb-0">Sports</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+                todo tipo de deportes un impulso para tu carrera profesional.
               </p>
             </div>
           </div>
@@ -48,7 +54,7 @@ export const AboutScreen = () => {
             <div className="text-cont-secondary">
               <h4 className="fw-bold mb-0">Health</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+                Ayudamos desde enfermedades, hasta la parte Profesional medica.
               </p>
             </div>
           </div>
@@ -63,7 +69,8 @@ export const AboutScreen = () => {
             <div className="text-cont-secondary">
               <h4 className="fw-bold mb-0">Industries</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+                Desarrollamo enfoque de creciemiento economico mediante seres
+                luces.
               </p>
             </div>
           </div>
@@ -78,7 +85,8 @@ export const AboutScreen = () => {
             <div className="text-cont-secondary">
               <h4 className="fw-bold mb-0">Stock Market</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+                Ayudamo acuidar tus inversiones economicas canalizamos buena
+                suerte.
               </p>
             </div>
           </div>
@@ -93,7 +101,7 @@ export const AboutScreen = () => {
             <div className="text-cont-secondary">
               <h4 className="fw-bold mb-0">Studies</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+                Te ayudamos en tu estudio profesional pueda alcanzar tus metas.
               </p>
             </div>
           </div>
@@ -108,7 +116,7 @@ export const AboutScreen = () => {
             <div className="text-cont-secondary">
               <h4 className="fw-bold mb-0">Artists</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+                impulsamos a los artista mediante los seres de luz a ser mas populares.
               </p>
             </div>
           </div>
@@ -121,9 +129,9 @@ export const AboutScreen = () => {
               <i className="fas fa-flag-usa"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Politica</h4>
+              <h4 className="fw-bold mb-0">Politics</h4>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
+                Ayudamos para que quedes primero en las encuesta tenga mas posibilida ganar.
               </p>
             </div>
           </div>

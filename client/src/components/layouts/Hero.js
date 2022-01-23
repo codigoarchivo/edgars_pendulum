@@ -37,7 +37,7 @@ export const Hero = () => {
         }}
       >
         <div className="container-fluid">
-          <div className="px-4 py-5 my-5 text-center">
+          <div className="px-md-4 py-5 my-md-5 text-center">
             <img
               className="d-block mx-auto mb-4 border-color p-1"
               src="/assets/img/favicon-white.png"
@@ -50,11 +50,8 @@ export const Hero = () => {
             </h1>
             <div className="col-lg-6 mx-auto">
               <p className="lead mb-4 hero-p">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source
-                toolkit, featuring Sass variables and mixins, responsive grid
-                system, extensive prebuilt components, and powerful JavaScript
-                plugins.
+                Agradecido con nuestros seres de luz para la investigación de
+                conciencias y reprogramacion de sus vidas al éxito.
               </p>
             </div>
           </div>

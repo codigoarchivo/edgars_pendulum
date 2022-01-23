@@ -28,6 +28,16 @@ a {
 .w-30 {
   width: 30% !important;
 }
+@media only screen and (max-width: 992px) {
+  .w-30 {
+    width: 40% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .w-30 {
+    width: 50% !important;
+  }
+}
 .p-t-3 {
   padding-top: 3rem;
 }
@@ -78,4 +88,10 @@ a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9) !important;
   z-index: -1;
+}
+.border-color-cont {
+  border-bottom: solid 1px var(--primary);
+}
+.move {
+  bottom: -35px !important;
 }

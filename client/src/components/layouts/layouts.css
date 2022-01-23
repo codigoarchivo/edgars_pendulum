@@ -7,6 +7,28 @@
   color: var(--bs-white) !important;
   transition: all 0.3s;
 }
+.navbar-media {
+  display: none;
+}
+@media (max-width: 992px) {
+  .nav-media {
+    background-color: var(--primary) !important;
+    opacity: 1 !important;
+  }
+  .navbar-media {
+    display: block;
+    color: var(--bs-white);
+    background-color: transparent;
+    border: transparent;
+    padding: 0.2rem 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: transparent !important;
+  }
+  .img-media {
+    padding: 1.5rem 0;
+  }
+}
 .nav-link:hover {
   color: var(--secondary) !important;
 }
@@ -38,11 +60,12 @@
 }
 .hero-p {
   backface-visibility: hidden;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 .link-secondary {
   color: var(--bs-white);
 }
-
 
 /* footer */
 .footer-h5 {
