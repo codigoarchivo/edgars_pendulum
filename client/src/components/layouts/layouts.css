@@ -7,6 +7,9 @@
   color: var(--bs-white) !important;
   transition: all 0.3s;
 }
+.nav-link:hover {
+  color: #999 !important;
+}
 .navbar-media {
   display: none;
 }
@@ -29,9 +32,7 @@
     padding: 1.5rem 0;
   }
 }
-.nav-link:hover {
-  color: var(--secondary) !important;
-}
+
 /* hero */
 .hero {
   background-repeat: no-repeat;

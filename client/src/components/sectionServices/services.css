@@ -59,7 +59,10 @@
   text-align: right;
 }
 .heading-segundary  {
-  font-size: 5rem;
+  font-size: 7rem;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  margin-bottom: 5rem;
 }
 .card__heading-span {
   padding: 1rem;

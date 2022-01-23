@@ -54,7 +54,7 @@ export const Card = ({ data, secCont }) => {
           </h2>
           <div className="row justify-content-evenly">
             {listCard.map((x) => (
-              <div key={x.ul1} className="col-lg-4 col-md-8 col-sm-12 pt-5">
+              <div key={x.ul1} className="col-lg-4 col-md-7 col-sm-9 pt-5">
                 <div className="card shadow">
                   <div className="card__side card__side--front">
                     <div

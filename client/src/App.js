@@ -19,19 +19,39 @@ function App() {
         <Hero />
       </header>
       <main className="py-5">
-        <section className="container py-lg-5">
+        <section className="container py-lg-5 position-relative">
+          <div
+            id="edgars"
+            className="position-absolute"
+            style={{ top: "-4rem" }}
+          ></div>
           <PresentationScreeen />
         </section>
-        <section className="container pb-5" id="workarea">
+        <section className="container pb-5 position-relative">
+          <div
+            id="workarea"
+            className="position-absolute"
+            style={{ top: "-8rem" }}
+          ></div>
           <AboutScreen />
         </section>
-        <section className="container py-5">
+        <section className="container py-5 position-relative">
           <SituationsScreen />
         </section>
-        <section className="container-fluid pb-5" id="aboutme">
+        <section className="container-fluid pb-5 position-relative">
+          <div
+            id="aboutme"
+            className="position-absolute"
+            style={{ top: "-8rem" }}
+          ></div>
           <CardServicesScreen />
         </section>
-        <section className="container py-5" id="servicearea">
+        <section className="container py-5 position-relative">
+          <div
+            id="servicearea"
+            className="position-absolute"
+            style={{ top: "-8rem" }}
+          ></div>
           <MoreInformation />
         </section>
       </main>

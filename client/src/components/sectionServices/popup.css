@@ -55,7 +55,9 @@
   width: 100%;
 }
 .popup__text {
-  font-size: 4rem;
+  font-size: 5rem;
+  line-height: 1.6;
+  font-weight: 400;
 }
 .popup:target {
   opacity: 1;

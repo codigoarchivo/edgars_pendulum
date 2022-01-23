@@ -21,7 +21,7 @@ export const Nav = () => {
   const identificador = (valor) => {
     document.getElementById(valor).scrollIntoView({ behavior: "smooth" });
   };
-  
+
   return (
     <>
       <nav
@@ -48,16 +48,17 @@ export const Nav = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <img
                 src="/assets/img/logo-white.png"
-                className="img-fluid nav-img mx-4  img-media"
+                className="img-fluid nav-img mx-4  img-media cursor-pointer"
                 alt="Foto"
+                onClick={() => identificador("home")}
               />
               <li className="nav-item">
                 <span
-                  className="nav-link cursor-pointer active"
+                  className="nav-link cursor-pointer active bg-blu-ligth rounded"
                   aria-current="page"
-                  onClick={() => identificador("home")}
+                  onClick={() => identificador("edgars")}
                 >
-                  Home
+                  Edgars pendulum
                 </span>
               </li>
               <li className="nav-item">
@@ -92,13 +93,13 @@ export const Nav = () => {
               <li className="d-flex flex-column list-unstyled col-4 w-100 text-cont-white">
                 <span>
                   {" "}
-                  <strong className="text-orange-dark">Free Call</strong>{" "}
+                  <strong>Free Call</strong>
                   <strong>+1 9735108452</strong>
                 </span>
-                <span>Call Us Now 24/7 Customer Support</span>
+                <span>Call Us Now 24/7</span>
               </li>
             </ul>
-            <ul className="navbar-nav ml-auto mt-3 mt-lg-0 mx-5">
+            <ul className="navbar-nav ml-auto mt-3 mt-lg-0 mx-4">
               <li className="nav-item">
                 {" "}
                 <a
