@@ -5,6 +5,7 @@ import { Popup } from "./Popup";
 const newData = {
   titulo: "",
   descripcion: "",
+  publicidad: "",
 };
 export const Card = ({ data, secCont }) => {
   const [t] = useTranslation("global");
@@ -30,8 +31,13 @@ export const Card = ({ data, secCont }) => {
     }
   }, [form, setForm]);
 
-  const handleShow = (p, h) => {
-    setForm({ ...form, titulo: h, descripcion: p });
+  const handleShow = (p, h, amor) => {
+    setForm({
+      ...form,
+      titulo: h,
+      descripcion: p,
+      publicidad: t("PresentationScreeen.amor"),
+    });
     setShow(true);
   };
 

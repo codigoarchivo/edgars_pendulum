@@ -4,9 +4,10 @@ import { useTranslation } from "react-i18next";
 export const Nav = () => {
   const [t] = useTranslation("global");
   const [navBackground, setNavBackground] = React.useState(false);
-  const navRef = React.useRef();
 
+  const navRef = React.useRef();
   navRef.current = navBackground;
+
   React.useEffect(() => {
     const handleScroll = () => {
       const show = window.scrollY > 50;
@@ -27,7 +28,7 @@ export const Nav = () => {
   return (
     <>
       <nav
-        className="py-lg-4  navbar navbar-expand-lg nav-media shadow-lg fixed-top"
+        className=" navbar navbar-expand-lg nav-media shadow-lg fixed-top"
         style={{
           transition: ".4s ease",
           backgroundColor: navBackground ? "#0077b6" : "rgba(0, 0, 0, 0.1)",
@@ -36,7 +37,7 @@ export const Nav = () => {
       >
         <div className="container-fluid">
           <button
-            className="navbar-media"
+            className="navbar-media navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -44,16 +45,21 @@ export const Nav = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="fas fa-align-justify fa-2x"></i>
+            <i className="fas fa-align-justify navbar-toggler-icon"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <img
-                src="/assets/img/logo-white.png"
-                className="img-fluid nav-img mx-4  img-media cursor-pointer"
-                alt="Foto"
-                onClick={() => identificador("home")}
-              />
+            <ul className="navbar-nav me-auto">
+              <li className="navbar-brand  px-lg-4 ">
+                <img
+                  src="/assets/img/logo-white.png"
+                  className="nav-img img-media cursor-pointer"
+                  alt="Foto"
+                  width="70"
+                  height="30"
+                  onClick={() => identificador("home")}
+                />
+              </li>
+
               <li className="nav-item">
                 <span
                   className="nav-link cursor-pointer active bg-blu-ligth rounded"
@@ -92,23 +98,22 @@ export const Nav = () => {
               </li>
             </ul>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="d-flex flex-column list-unstyled col-4 w-100 text-cont-white">
-                <span>
-                  {" "}
-                  <strong>+1 9735108452</strong>
+              <li className="nav-item">
+                <span className="nav-link">
+                  <strong>+1 9735108452 {t("header.llama")}</strong>
                 </span>
-
-                <span>{t("header.llama")}</span>
               </li>
             </ul>
-            <ul className="navbar-nav ml-auto mt-3 mt-lg-0 mx-4">
+            <ul className="navbar-nav  mx-lg-4">
               <li className="nav-item">
                 {" "}
                 <a
                   className="nav-link cursor-pointer"
+                  target={"_blank"}
+                  rel="noreferrer"
                   href="https://twitter.com/edgarspendulum?t=PmWj-xl1JJ407GU2Lk8wDg&s=09"
                 >
-                  <i className="fab fa-twitter"></i>
+                  <i className="fab fa-twitter"></i>{" "}
                   <span className="d-lg-none ml-3">Twitter</span>
                 </a>{" "}
               </li>
@@ -117,8 +122,10 @@ export const Nav = () => {
                 <a
                   className="nav-link cursor-pointer"
                   href="https://www.facebook.com/edgar.marcanosantodomingo"
+                  target={"_blank"}
+                  rel="noreferrer"
                 >
-                  <i className="fab fa-facebook"></i>
+                  <i className="fab fa-facebook"></i>{" "}
                   <span className="d-lg-none ml-3">Facebook</span>
                 </a>{" "}
               </li>
@@ -127,15 +134,22 @@ export const Nav = () => {
                 <a
                   className="nav-link cursor-pointer"
                   href="https://www.instagram.com/p/CYcsvrVgEC5/?utm_medium=share_sheet"
+                  target={"_blank"}
+                  rel="noreferrer"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>{" "}
                   <span className="d-lg-none ml-3">Instagram</span>
                 </a>{" "}
               </li>
               <li className="nav-item cursor-pointer">
                 {" "}
-                <a className="nav-link " href="@edgarspendulum">
-                  <i className="fab fa-telegram-plane"></i>
+                <a
+                  className="nav-link"
+                  target={"_blank"}
+                  href="@edgarspendulum"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-telegram-plane"></i>{" "}
                   <span className="d-lg-none ml-3">Linkedin</span>
                 </a>{" "}
               </li>

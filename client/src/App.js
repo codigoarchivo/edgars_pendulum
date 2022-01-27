@@ -6,11 +6,11 @@ import { MoreInformation } from "./components/sectionAboutWe/AboutMe";
 import { CardServicesScreen } from "./components/sectionServices/CardServicesScreen";
 import { SituationsScreen } from "./components/sectionSituations/SituationsScreen";
 import { PresentationScreeen } from "./components/sectionPresentation/PresentationScreeen";
+import { ButtonFloat } from "./components/layouts/ButtonFloat";
 
 import "./css/bootstrap.min.css";
 import "./css/all.min.css";
 import "./App.css";
-import { ButtonFloat } from "./components/layouts/ButtonFloat";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           <div
             id="edgars"
             className="position-absolute"
-            style={{ top: "-4rem" }}
+            style={{ top: "-3rem" }}
           ></div>
           <PresentationScreeen />
         </section>
@@ -43,7 +43,7 @@ function App() {
           <div
             id="aboutme"
             className="position-absolute"
-            style={{ top: "-8rem" }}
+            style={{ top: "-6rem" }}
           ></div>
           <CardServicesScreen />
         </section>
@@ -51,7 +51,7 @@ function App() {
           <div
             id="servicearea"
             className="position-absolute"
-            style={{ top: "-8rem" }}
+            style={{ top: "-5rem" }}
           ></div>
           <MoreInformation />
         </section>

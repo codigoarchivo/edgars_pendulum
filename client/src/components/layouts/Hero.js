@@ -39,11 +39,11 @@ export const Hero = () => {
         }}
       >
         <div className="container-fluid">
-          <div className="px-md-4 py-5 my-md-5 text-center">
+          <div className="px-md-4 py-lg-5 my-md-5 text-center nuSpace">
             <img
-              className="d-block mx-auto mb-4 border-color p-1"
+              className="d-block mx-auto mb-lg-4 border-color p-lg-1"
               src="/assets/img/favicon-white.png"
-              alt=""
+              alt="Foto"
               width="55"
               height="57"
             />

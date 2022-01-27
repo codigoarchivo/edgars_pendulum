@@ -15,20 +15,18 @@ export const PresentationScreeen = () => {
           >
             Edgars <span className="text-cont-primary">Pendulum</span>
           </h2>
-          <div className="row flex-direction-column justify-content-center">
+          <div>
             <img
-              className="rounded img-fluid  img-thumbnail col-lg-2 col-md-5 col-sm-5"
+              className="img-fluid  col-lg-3 col-md-3 col-sm-3 float-start pe-3 pt-2"
               src="/assets/img/perfil.jpg"
               alt="Foto"
             />
-            <p className="col-lg-10 col-md-7 col-sm-12 text-com ">
-              {t("PresentationScreeen.metodo")}
-            </p>
-            <p className="text-com ">
-              {t("PresentationScreeen.principio")}
-              <br />
-              <br />
-              {t("PresentationScreeen.mediante")}
+
+            <p className="col-lg-12 col-md-12 col-sm-12 text-com">
+              {t("PresentationScreeen.metodo")} <br />
+              {t("PresentationScreeen.principio")} <br />
+              {t("PresentationScreeen.mediante")} <br />
+              <strong>{t("PresentationScreeen.amor")}</strong>
             </p>
           </div>
         </div>

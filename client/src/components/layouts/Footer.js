@@ -21,7 +21,7 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="col-lg-4 col-md-6  col-sm-12">
-            <h5>
+            <h5 className="text-cont-white">
               {t("CardServicesScreen.seccion")}{" "}
               {t("CardServicesScreen.espiritual")}
             </h5>
@@ -29,7 +29,7 @@ export const Footer = () => {
               <ul className="list-unstyled text-small">
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -38,7 +38,7 @@ export const Footer = () => {
                 </li>
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -47,7 +47,7 @@ export const Footer = () => {
                 </li>
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -56,7 +56,7 @@ export const Footer = () => {
                 </li>
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -65,7 +65,7 @@ export const Footer = () => {
                 </li>
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -76,7 +76,7 @@ export const Footer = () => {
               <ul className="list-unstyled text-small">
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -85,7 +85,7 @@ export const Footer = () => {
                 </li>
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -94,7 +94,7 @@ export const Footer = () => {
                 </li>
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -103,7 +103,7 @@ export const Footer = () => {
                 </li>
                 <li className="mb-1 px-1">
                   <a
-                    className="text-cont-white  text-decoration-none"
+                    className="text-white-cont  text-decoration-none"
                     href="#aboutme"
                   >
                     <i className="fas fa-angle-right"></i>{" "}
@@ -120,7 +120,7 @@ export const Footer = () => {
             <ul className="list-unstyled text-small">
               <li className="mb-1">
                 <a
-                  className="text-cont-white  text-decoration-none"
+                  className="text-white-cont  text-decoration-none"
                   href="#servicearea"
                 >
                   <i className="fas fa-angle-right"></i>{" "}
@@ -129,7 +129,7 @@ export const Footer = () => {
               </li>
               <li className="mb-1">
                 <a
-                  className="text-cont-white  text-decoration-none"
+                  className="text-white-cont  text-decoration-none"
                   href="#servicearea"
                 >
                   <i className="fas fa-angle-right"></i>{" "}
