@@ -1,9 +1,10 @@
 import React from "react";
-import { data } from "../../data/data";
+import { DataCont1 } from "../../data/data";
 import { Card } from "./Card";
 import "./services.css";
 import "./popup.css";
 export const CardServicesScreen = () => {
+  const { data } = DataCont1();
   return (
     <>
       <div

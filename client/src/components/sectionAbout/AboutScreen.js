@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const AboutScreen = () => {
+  const [t] = useTranslation("global");
   return (
     <>
       <div className="container px-4" id="icon-grid">
@@ -10,7 +12,10 @@ export const AboutScreen = () => {
             data-aos-duration="2000"
             className="border-color-cont"
           >
-            Work <span className="text-cont-primary">Area</span>
+            {t("AboutScreen.secciones")}
+            <span className="text-cont-primary">
+              {t("AboutScreen.trabajo")}
+            </span>
           </span>
         </h2>
 
@@ -24,8 +29,8 @@ export const AboutScreen = () => {
               <i className="fas fa-city"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Real estate</h4>
-              <p>Activos que no pueden moverse de su lugar de origen.</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.bienes")}</h4>
+              <p>{t("AboutScreen.activos")}</p>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -37,10 +42,8 @@ export const AboutScreen = () => {
               <i className="fas fa-football-ball"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Sports</h4>
-              <p>
-                todo tipo de deportes un impulso para tu carrera profesional.
-              </p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.deportes")}</h4>
+              <p>{t("AboutScreen.tipo")}</p>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -52,10 +55,8 @@ export const AboutScreen = () => {
               <i className="fas fa-user-md"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Health</h4>
-              <p>
-                Ayudamos desde enfermedades, hasta la parte Profesional medica.
-              </p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.salud")}</h4>
+              <p>{t("AboutScreen.ayudamos")}</p>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -67,11 +68,8 @@ export const AboutScreen = () => {
               <i className="fas fa-industry"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Industries</h4>
-              <p>
-                Desarrollamo enfoque de creciemiento economico mediante seres
-                luces.
-              </p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.industria")}</h4>
+              <p>{t("AboutScreen.desarrollo")}</p>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -83,11 +81,8 @@ export const AboutScreen = () => {
               <i className="fas fa-hand-holding-usd"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Stock Market</h4>
-              <p>
-                Ayudamo acuidar tus inversiones economicas canalizamos buena
-                suerte.
-              </p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.bolsa")}</h4>
+              <p>{t("AboutScreen.cuidar")}</p>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -99,10 +94,8 @@ export const AboutScreen = () => {
               <i className="fas fa-graduation-cap"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Studies</h4>
-              <p>
-                Te ayudamos en tu estudio profesional pueda alcanzar tus metas.
-              </p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.estudios")}</h4>
+              <p>{t("AboutScreen.ayuda")}</p>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -114,10 +107,8 @@ export const AboutScreen = () => {
               <i className="fas fa-film"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Artists</h4>
-              <p>
-                impulsamos a los artista mediante los seres de luz a ser mas populares.
-              </p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.artista")}</h4>
+              <p>{t("AboutScreen.impulsa")}</p>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -125,14 +116,12 @@ export const AboutScreen = () => {
               className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
-            >
+              >
               <i className="fas fa-flag-usa"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">Politics</h4>
-              <p>
-                Ayudamos para que quedes primero en las encuesta tenga mas posibilida ganar.
-              </p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.politica")}</h4>
+              <p>{t("AboutScreen.primero")}</p>
             </div>
           </div>
         </div>

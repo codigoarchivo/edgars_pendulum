@@ -1,8 +1,9 @@
 import React from "react";
-import { data2 } from "../../data/data";
+import { DataCont2 } from "../../data/data";
 import { Situations } from "./Situations";
 import "./Situations.css";
 export const SituationsScreen = () => {
+  const { data2 } = DataCont2();
   return (
     <>
       <div

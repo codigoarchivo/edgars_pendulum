@@ -1,12 +1,14 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
+  const [t] = useTranslation("global");
   return (
     <>
       <footer className="pt-5 border-top container">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <h5>Information</h5>
+            <h5>{t("CardServicesScreen.informacion")}</h5>
             <ul className="list-unstyled text-small">
               <li className="mb-1">
                 <i className="fas fa-angle-right"></i> Tel +1 9735108452
@@ -19,7 +21,10 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="col-lg-4 col-md-6  col-sm-12">
-            <h5>Spiritual Area</h5>
+            <h5>
+              {t("CardServicesScreen.seccion")}{" "}
+              {t("CardServicesScreen.espiritual")}
+            </h5>
             <div className="d-flex justify-content-space-evenly">
               <ul className="list-unstyled text-small">
                 <li className="mb-1 px-1">
@@ -27,7 +32,8 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Real estate
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.real")}
                   </a>
                 </li>
                 <li className="mb-1 px-1">
@@ -35,7 +41,8 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Sports
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.deporte")}
                   </a>
                 </li>
                 <li className="mb-1 px-1">
@@ -43,7 +50,8 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Health
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.salud")}
                   </a>
                 </li>
                 <li className="mb-1 px-1">
@@ -51,7 +59,8 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Industries
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.industria")}
                   </a>
                 </li>
                 <li className="mb-1 px-1">
@@ -59,7 +68,8 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Stock Market
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.bolsa")}
                   </a>
                 </li>
               </ul>
@@ -69,7 +79,8 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Studies
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.estudios")}
                   </a>
                 </li>
                 <li className="mb-1 px-1">
@@ -77,7 +88,8 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Artists
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.artista")}
                   </a>
                 </li>
                 <li className="mb-1 px-1">
@@ -85,7 +97,8 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Politics
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.politica")}
                   </a>
                 </li>
                 <li className="mb-1 px-1">
@@ -93,21 +106,25 @@ export const Footer = () => {
                     className="text-cont-white  text-decoration-none"
                     href="#aboutme"
                   >
-                    <i className="fas fa-angle-right"></i> Business
+                    <i className="fas fa-angle-right"></i>{" "}
+                    {t("CardServicesScreen.negocio")}
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
-            <h5 className="footer-h5">Service Area</h5>
+            <h5 className="footer-h5">
+              {t("MoreInformation.seccion")} {t("MoreInformation.servicios")}
+            </h5>
             <ul className="list-unstyled text-small">
               <li className="mb-1">
                 <a
                   className="text-cont-white  text-decoration-none"
                   href="#servicearea"
                 >
-                  <i className="fas fa-angle-right"></i> How we work
+                  <i className="fas fa-angle-right"></i>{" "}
+                  {t("MoreInformation.trabajo")}
                 </a>
               </li>
               <li className="mb-1">
@@ -115,8 +132,8 @@ export const Footer = () => {
                   className="text-cont-white  text-decoration-none"
                   href="#servicearea"
                 >
-                  <i className="fas fa-angle-right"></i> What do we need from
-                  you?
+                  <i className="fas fa-angle-right"></i>{" "}
+                  {t("MoreInformation.que")}
                 </a>
               </li>
             </ul>
@@ -129,7 +146,8 @@ export const Footer = () => {
             alt="Foto"
           />
           <small className="d-block mb-3 text-cont-white">
-            Todos los Derechos Reservados &copy; 2017–{new Date().getFullYear()}
+            {t("footer.derechos")} &copy; 2017–
+            {new Date().getFullYear()}
           </small>
         </div>
       </footer>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Popup } from "./Popup";
 
 const newData = {
@@ -6,6 +7,7 @@ const newData = {
   descripcion: "",
 };
 export const Card = ({ data, secCont }) => {
+  const [t] = useTranslation("global");
   const { carInfo } = data;
 
   const [listCard, setlistCard] = React.useState([]);
@@ -49,7 +51,10 @@ export const Card = ({ data, secCont }) => {
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              Spiritual <span className="text-cont-primary">Area</span>
+              {t("CardServicesScreen.seccion")}
+              <span className="text-cont-primary">
+                {t("CardServicesScreen.espiritual")}
+              </span>
             </span>
           </h2>
           <div className="row justify-content-evenly">
@@ -90,7 +95,7 @@ export const Card = ({ data, secCont }) => {
                         onClick={() => handleShow(x.p, x.id)}
                         className="btn bg-secondary"
                       >
-                        More
+                        {x.more}
                       </button>
                     </div>
                   </div>

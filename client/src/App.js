@@ -10,6 +10,7 @@ import { PresentationScreeen } from "./components/sectionPresentation/Presentati
 import "./css/bootstrap.min.css";
 import "./css/all.min.css";
 import "./App.css";
+import { ButtonFloat } from "./components/layouts/ButtonFloat";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
       <div className="container-fluid bg-blu-ligth">
         <Footer />
       </div>
+      <ButtonFloat/>
     </>
   );
 }

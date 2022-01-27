@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./PresentationScreen.css";
 export const PresentationScreeen = () => {
+  const [t] = useTranslation("global");
   return (
     <div className="row featurette shadow-lg mb-5">
       <div className="col-md-12">
@@ -20,35 +22,13 @@ export const PresentationScreeen = () => {
               alt="Foto"
             />
             <p className="col-lg-10 col-md-7 col-sm-12 text-com ">
-              This method is designed to be used in the process of
-              investigation, liberation and transformation of the energies
-              created by every person and that are based on the foundations of
-              the laws that govern all creation in terrestrial life. Those
-              universal principles are the 7 hermetic principles, well known by
-              spiritual disciplines. Thanks to the level of consciousness of
-              humanity and its evolution in the management of its energies, we
-              have detected that there is a law that protects us and raises us
-              to a higher level of evolution, that law is unconditional love.
+              {t("PresentationScreeen.metodo")}
             </p>
             <p className="text-com ">
-              This principle uses all the others as experiential patterns of
-              understanding the creations on this plane. This method has the
-              higher purpose of bringing awareness to those who practice it and
-              connect with it. Through understanding, people take responsibility
-              for their creations, understanding the energetic pattern they must
-              change.
-              <br /><br />
-              Through the use of the pendulum as a vehicle of connection with
-              divinity, it is possible to connect with the information necessary
-              for its understanding and consequent liberation and transformation
-              of models and energetic patterns inappropriate for its present
-              moment and brings to your consciousness information necessary for
-              your advancement and development. . Aspects of your emotional
-              memory with which you are tuned in and that could be generating
-              blockages in different areas of your life. This method reprograms
-              and transforms the genealogy of the soul, family and individual
-              karma into current, ancestral memories of the mental, emotional,
-              physical and spiritual body in all dimensions of being.
+              {t("PresentationScreeen.principio")}
+              <br />
+              <br />
+              {t("PresentationScreeen.mediante")}
             </p>
           </div>
         </div>

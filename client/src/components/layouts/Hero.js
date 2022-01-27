@@ -1,7 +1,9 @@
 import React from "react";
 import Typed from "typed.js";
+import { useTranslation } from "react-i18next";
 import "./layouts.css";
 export const Hero = () => {
+  const [t] = useTranslation("global");
   // Create reference to store the DOM element containing the animation
   const el = React.useRef(null);
   // Create reference to store the Typed instance itself
@@ -49,24 +51,9 @@ export const Hero = () => {
               <span ref={el}></span>
             </h1>
             <div className="col-lg-6 mx-auto">
-              <p className="lead mb-4 hero-p">
-                Agradecido con nuestros seres de luz para la investigación de
-                conciencias y reprogramacion de sus vidas al éxito.
-              </p>
+              <p className="lead mb-4 hero-p">{t("header.Agradecido")}</p>
             </div>
           </div>
-          {/* <h1>
-            <span ref={el}></span>
-          </h1>
-
-          <p className="my-lg-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores,
-            consequuntur?
-          </p>
-
-          <button className="ripple btn shadow">
-            Click Me
-          </button> */}
         </div>
       </div>
     </>

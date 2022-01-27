@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const Nav = () => {
+  const [t] = useTranslation("global");
   const [navBackground, setNavBackground] = React.useState(false);
   const navRef = React.useRef();
 
@@ -67,7 +69,7 @@ export const Nav = () => {
                   aria-current="page"
                   onClick={() => identificador("workarea")}
                 >
-                  Work Area
+                  {t("header.trabajo")}
                 </span>
               </li>
               <li className="nav-item">
@@ -76,7 +78,7 @@ export const Nav = () => {
                   aria-current="page"
                   onClick={() => identificador("aboutme")}
                 >
-                  About me
+                  {t("header.espiritual")}
                 </span>
               </li>
               <li className="nav-item">
@@ -85,7 +87,7 @@ export const Nav = () => {
                   aria-current="page"
                   onClick={() => identificador("servicearea")}
                 >
-                  Service Area
+                  {t("header.servicio")}
                 </span>
               </li>
             </ul>
@@ -93,10 +95,10 @@ export const Nav = () => {
               <li className="d-flex flex-column list-unstyled col-4 w-100 text-cont-white">
                 <span>
                   {" "}
-                  <strong>Free Call</strong>
                   <strong>+1 9735108452</strong>
                 </span>
-                <span>Call Us Now 24/7</span>
+
+                <span>{t("header.llama")}</span>
               </li>
             </ul>
             <ul className="navbar-nav ml-auto mt-3 mt-lg-0 mx-4">

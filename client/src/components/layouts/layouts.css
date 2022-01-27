@@ -67,6 +67,39 @@
 .link-secondary {
   color: var(--bs-white);
 }
+/* Button Float */
+.btn-flotante {
+  font-size: 16px; /* Cambiar el tamaño de la tipografia */
+  text-transform: uppercase; /* Texto en mayusculas */
+  font-weight: 500; /* Fuente en negrita o bold */
+  color: var(--bs-white) !important; /* Color del texto */
+  border-radius: 5px; /* Borde del boton */ 
+  background-color: var(--primary) !important; /* Color de fondo */
+  position: fixed;
+  bottom: 40px;
+  transition: all 300ms ease 0ms !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99 !important;
+}
+.btn-position:nth-last-of-type(1) {
+  right: 40px;
+}
+.btn-position:nth-last-of-type(2) {
+  right: 100px;
+}
+.btn-flotante:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  color: var(--text-primary) !important;
+  transform: translateY(-4px);
+}
+@media only screen and (max-width: 600px) {
+  .btn-flotante {
+    font-size: 14px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
 
 /* footer */
 .footer-h5 {
