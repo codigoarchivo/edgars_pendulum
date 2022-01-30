@@ -15,9 +15,7 @@ export const Popup = ({ form, show, handleClose }) => {
               <h2 className="heading-segundary u-margin-bottom-small">
                 {form.titulo}
               </h2>
-              <p className="popup__text">
-                {form.descripcion} <strong>{form.publicidad}</strong>
-              </p>
+              <p className="popup__text">{form.descripcion}</p>
             </div>
           </div>
         </div>

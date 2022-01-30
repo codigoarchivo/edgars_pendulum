@@ -1,4 +1,36 @@
 .bg-fichero {
-  background-position: center center;
-  background-size: cover;
+  z-index: -10;
+  width: 100%;
+  height: -webkit-fill-available;
+  transition: all 0.2s;
+  outline-offset: 2rem;
+  left: 0;
+  top: 0;
+}
+.con-pa {
+  padding: 4rem;
+}
+@media (max-width: 991.98px) {
+  .con-pa {
+    padding: 3rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .con-pa {
+    padding: 2rem;
+  }
+  .lead {
+    font-size: 1rem !important;
+  }
+  .display-6 {
+    font-size: 1.3rem !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .con-pa {
+    padding: 2rem 1rem;
+  }
+  .lead {
+    margin-bottom: 0;
+  }
 }

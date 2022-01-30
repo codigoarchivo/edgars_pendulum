@@ -5,6 +5,7 @@ export const DataCont2 = () => {
   const data2 = [
     {
       id: "Situations1",
+      md: "Situations1-md",
       h1a: t("SituationsScreen.salud"),
       parrafo: t("SituationsScreen.edad"),
     },

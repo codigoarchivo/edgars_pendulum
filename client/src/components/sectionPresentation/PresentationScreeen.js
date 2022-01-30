@@ -26,7 +26,6 @@ export const PresentationScreeen = () => {
               {t("PresentationScreeen.metodo")} <br />
               {t("PresentationScreeen.principio")} <br />
               {t("PresentationScreeen.mediante")} <br />
-              <strong>{t("PresentationScreeen.amor")}</strong>
             </p>
           </div>
         </div>

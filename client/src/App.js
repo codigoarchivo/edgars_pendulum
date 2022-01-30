@@ -36,10 +36,10 @@ function App() {
           ></div>
           <AboutScreen />
         </section>
-        <section className="container py-5 position-relative">
+        <section className="container px-0 py-5 position-relative">
           <SituationsScreen />
         </section>
-        <section className="container-fluid pb-5 position-relative">
+        <section className="container-fluid px-0 pb-5 position-relative">
           <div
             id="aboutme"
             className="position-absolute"

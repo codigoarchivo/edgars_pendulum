@@ -5,16 +5,19 @@ export const Situations = ({ dataInfo }) => {
   return (
     <>
       <div
-        className="container border-color shadow bg-fichero img-fluid img-thumbnail"
-        style={{
-          backgroundImage: `url(./assets/img/${id}.jpg)`,
-        }}
+        className="container position-relative px-0"
       >
-        <div className="row">
-          <div className="col-lg-12 col-md-12 col-sm-12 p-4 p-md-5 mb-4 rounded">
-            <div className="col-lg-6 px-0">
-              <h1 className="display-6 fst-italic text-cont-primary">{h1a}</h1>
-              <p className="lead my-3 text-cont-white">{parrafo}</p>
+        <img
+          src={`./assets/img/${id}.jpg`}
+          alt={id}
+          className="shadow bg-fichero position-absolute"/>
+        <div className="row con-pa mx-0">
+          <div className="col-lg-12 rounded">
+            <div className="col-lg-6  col-md-12 col-sm-12">
+              <h1 className="display-6 mb-lg-3 fst-italic text-cont-primary">
+                {h1a}
+              </h1>
+              <p className="lead mb-lg-5  text-cont-white">{parrafo}</p>
             </div>
           </div>
         </div>

@@ -36,7 +36,6 @@ export const Card = ({ data, secCont }) => {
       ...form,
       titulo: h,
       descripcion: p,
-      publicidad: t("PresentationScreeen.amor"),
     });
     setShow(true);
   };
