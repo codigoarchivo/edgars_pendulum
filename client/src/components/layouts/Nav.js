@@ -82,15 +82,6 @@ export const Nav = () => {
                 <span
                   className="nav-link cursor-pointer"
                   aria-current="page"
-                  onClick={() => identificador("aboutme")}
-                >
-                  {t("header.espiritual")}
-                </span>
-              </li>
-              <li className="nav-item">
-                <span
-                  className="nav-link cursor-pointer"
-                  aria-current="page"
                   onClick={() => identificador("servicearea")}
                 >
                   {t("header.servicio")}
