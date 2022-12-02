@@ -3,7 +3,6 @@ import { Hero } from "./components/layouts/Hero";
 import { Nav } from "./components/layouts/Nav";
 import { AboutScreen } from "./components/sectionAbout/AboutScreen";
 import { MoreInformation } from "./components/sectionAboutWe/AboutMe";
-import { CardServicesScreen } from "./components/sectionServices/CardServicesScreen";
 import { SituationsScreen } from "./components/sectionSituations/SituationsScreen";
 import { PresentationScreeen } from "./components/sectionPresentation/PresentationScreeen";
 import { ButtonFloat } from "./components/layouts/ButtonFloat";
@@ -38,14 +37,6 @@ function App() {
         </section>
         <section className="container px-0 py-5 position-relative">
           <SituationsScreen />
-        </section>
-        <section className="container-fluid px-0 pb-5 position-relative">
-          <div
-            id="aboutme"
-            className="position-absolute"
-            style={{ top: "-6rem" }}
-          ></div>
-          <CardServicesScreen />
         </section>
         <section className="container py-5 position-relative">
           <div
