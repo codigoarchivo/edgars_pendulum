@@ -12,10 +12,18 @@ export const AboutScreen = () => {
             data-aos-duration="2000"
             className="border-color-cont"
           >
-            {t("AboutScreen.secciones")}
+            {t("AboutScreen.sec")}
             <span className="text-cont-primary">
-              {t("AboutScreen.trabajo")}
+              {t("AboutScreen.tra")}
             </span>
+          </span>
+        </h2>
+        <h2 className="mb-5">
+          <span
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            {t("AboutScreen.sistema")}
           </span>
         </h2>
 
@@ -26,11 +34,10 @@ export const AboutScreen = () => {
               width="1.75em"
               height="1.75em"
             >
-              <i className="fas fa-city"></i>
+              <i class="fa fa-check"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">{t("AboutScreen.bienes")}</h4>
-              <p>{t("AboutScreen.activos")}</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aA")}</h4>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -39,11 +46,10 @@ export const AboutScreen = () => {
               width="1.75em"
               height="1.75em"
             >
-              <i className="fas fa-football-ball"></i>
+              <i class="fa fa-check"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">{t("AboutScreen.deportes")}</h4>
-              <p>{t("AboutScreen.tipo")}</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aB")}</h4>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -52,11 +58,10 @@ export const AboutScreen = () => {
               width="1.75em"
               height="1.75em"
             >
-              <i className="fas fa-user-md"></i>
+              <i class="fa fa-check"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">{t("AboutScreen.salud")}</h4>
-              <p>{t("AboutScreen.ayudamos")}</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aC")}</h4>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -65,11 +70,10 @@ export const AboutScreen = () => {
               width="1.75em"
               height="1.75em"
             >
-              <i className="fas fa-industry"></i>
+              <i class="fa fa-check"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">{t("AboutScreen.industria")}</h4>
-              <p>{t("AboutScreen.desarrollo")}</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aD")}</h4>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -78,11 +82,10 @@ export const AboutScreen = () => {
               width="1.75em"
               height="1.75em"
             >
-              <i className="fas fa-hand-holding-usd"></i>
+              <i class="fa fa-check"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">{t("AboutScreen.bolsa")}</h4>
-              <p>{t("AboutScreen.cuidar")}</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aE")}</h4>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -91,11 +94,10 @@ export const AboutScreen = () => {
               width="1.75em"
               height="1.75em"
             >
-              <i className="fas fa-graduation-cap"></i>
+              <i class="fa fa-check"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">{t("AboutScreen.estudios")}</h4>
-              <p>{t("AboutScreen.ayuda")}</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aF")}</h4>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -104,11 +106,10 @@ export const AboutScreen = () => {
               width="1.75em"
               height="1.75em"
             >
-              <i className="fas fa-film"></i>
+              <i class="fa fa-check"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">{t("AboutScreen.artista")}</h4>
-              <p>{t("AboutScreen.impulsa")}</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aG")}</h4>
             </div>
           </div>
           <div className="col d-flex align-items-start">
@@ -116,12 +117,131 @@ export const AboutScreen = () => {
               className="bi text-cont-primary flex-shrink-0 me-3"
               width="1.75em"
               height="1.75em"
-              >
-              <i className="fas fa-flag-usa"></i>
+            >
+              <i class="fa fa-check"></i>
             </svg>
             <div className="text-cont-secondary">
-              <h4 className="fw-bold mb-0">{t("AboutScreen.politica")}</h4>
-              <p>{t("AboutScreen.primero")}</p>
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aH")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aI")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aJ")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aK")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aL")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aLL")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aM")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aÑ")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aO")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aP")}</h4>
+            </div>
+          </div>
+          <div className="col d-flex align-items-start">
+            <svg
+              className="bi text-cont-primary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+            >
+              <i class="fa fa-check"></i>
+            </svg>
+            <div className="text-cont-secondary">
+              <h4 className="fw-bold mb-0">{t("AboutScreen.aQ")}</h4>
             </div>
           </div>
         </div>
