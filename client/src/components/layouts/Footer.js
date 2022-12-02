@@ -6,8 +6,8 @@ export const Footer = () => {
   return (
     <>
       <footer className="pt-5 border-top container">
-        <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-12">
+        <div className="row justify-content-center">
+          <div className="col-lg-3 col-md-5 col-sm-12">
             <h5>{t("CardServicesScreen.informacion")}</h5>
             <ul className="list-unstyled text-small">
               <li className="mb-1">
@@ -20,100 +20,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-4 col-md-6  col-sm-12">
-            <h5 className="text-cont-white">
-              {t("CardServicesScreen.seccion")}{" "}
-              {t("CardServicesScreen.espiritual")}
-            </h5>
-            <div className="d-flex justify-content-space-evenly">
-              <ul className="list-unstyled text-small">
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.real")}
-                  </a>
-                </li>
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.deporte")}
-                  </a>
-                </li>
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.salud")}
-                  </a>
-                </li>
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.industria")}
-                  </a>
-                </li>
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.bolsa")}
-                  </a>
-                </li>
-              </ul>
-              <ul className="list-unstyled text-small">
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.estudios")}
-                  </a>
-                </li>
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.artista")}
-                  </a>
-                </li>
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.politica")}
-                  </a>
-                </li>
-                <li className="mb-1 px-1">
-                  <a
-                    className="text-white-cont  text-decoration-none"
-                    href="#aboutme"
-                  >
-                    <i className="fas fa-angle-right"></i>{" "}
-                    {t("CardServicesScreen.negocio")}
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-5 col-sm-12">
             <h5 className="footer-h5">
               {t("MoreInformation.seccion")} {t("MoreInformation.servicios")}
             </h5>
