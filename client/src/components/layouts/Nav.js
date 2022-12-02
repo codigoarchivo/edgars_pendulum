@@ -91,7 +91,7 @@ export const Nav = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <span className="nav-link">
-                  <strong>+1 9735108452 {t("header.llama")}</strong>
+                  <strong>+1 9085316962  {t("header.llama")}</strong>
                 </span>
               </li>
             </ul>
