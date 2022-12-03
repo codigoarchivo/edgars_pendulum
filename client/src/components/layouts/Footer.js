@@ -11,7 +11,7 @@ export const Footer = () => {
             <h5>{t("CardServicesScreen.informacion")}</h5>
             <ul className="list-unstyled text-small">
               <li className="mb-1">
-                <i className="fas fa-angle-right"></i> Tel +1 9735108452
+                <i className="fas fa-angle-right"></i> Tel +1 9085316962
               </li>
             </ul>
             <ul className="list-unstyled text-small">
